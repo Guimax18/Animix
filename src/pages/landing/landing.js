@@ -156,6 +156,7 @@ export default function landing() {
     </section>
 
 
+        <h2 className='titulo__colecao'>Coleções</h2>
     <section class="sessao__colecao" id="colecao">
         <div class="container__colecao">
         <div>
