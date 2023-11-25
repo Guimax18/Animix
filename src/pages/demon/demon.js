@@ -2,7 +2,9 @@ import './demon.scss';
 import logo from '../assets/logo img/logo.animix.png'
 import lupa from '../assets/icons/lupa-2.png'
 import sacola from '../assets/icons/sacola-branca.png'
-import perfil from '../assets/icons/perfil.png'
+import perfil from '../assets/icons/picsart_23-09-24_00-48-40-099.png'
+import bgPrincipal from '../assets/images/bgdemon.png'
+import demonlogo from '../assets/logo img/logo kny.jpg'
 
 
 import bgInstagram from '../assets/images/rectangle.png'
@@ -44,6 +46,7 @@ export default function Demon() {
         </div>
     </header>
 
+    <img className='bg__principal' src={bgPrincipal} alt='imagem de demon'/>
     <section class="banner__principal">
         <div class="text__principal">
             <h1 class="texto1">Coleção Demon Slayer</h1> 
@@ -51,7 +54,7 @@ export default function Demon() {
     </section>
 
     <div class="logo__ilustration">
-        <img src="/assets/logo img/logo kny.jpg" alt="kny"/>
+        <img src={demonlogo} alt="kny"/>
     </div>
 
     <section class="sessao__colecao">
@@ -162,3 +165,4 @@ export default function Demon() {
   )
   
 }
+
