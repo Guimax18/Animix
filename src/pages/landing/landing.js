@@ -11,6 +11,10 @@ import cartao from '../assets/icons/cartoes-de-credito.png'
 import jujutsuLogo from '../assets/logo img/logo jjk.jpg'
 import atackLogo from '../assets/logo img/logo-atack2.png'
 import demonLogo from '../assets/logo img/logo kny.jpg'
+import imgJaqeAtack from '../assets/roupas img/snk/jaqueta modelox.webp'
+import imgMoletKukoshibo from '../assets/roupas img/demon/moletom kukoshibo.webp'
+import imgCamGojoModel from '../assets/roupas img/jjk/camiseta gojo modelo.png'
+import imgChaveiroGojo from '../assets/roupas img/jjk/chaveiro gojo e geto.jfif'
 import hokage from '../assets/images/hokage.jpg'
 import blusa from '../assets/images/blusa.webp'
 import otaku from '../assets/images/banner otaku.webp'
@@ -25,6 +29,10 @@ import imgCamSukuna2  from '../assets/roupas img/jjk/camiseta sukuna 2.jpg'
 import imgCamDavid from '../assets/roupas img/animes/camiseta david.jpg'
 import bgInstagram from '../assets/images/rectangle.png'
 import iconInsta from '../assets/icons/instagram.png'
+import imgChain from '../assets/images/chain.jpg'
+import homi from '../assets/images/pexels-justin-l-u-c-k-5707180.jpg'
+import muieInsta from '../assets/images/pexels-th-team-7516447.jpg'
+import modeloRosa from '../assets/images/modelo rosa 2.webp'
 import imgFooter from '../assets/images/bgfooter.jpg'
 import React from 'react';
 
@@ -42,7 +50,7 @@ export default function landing() {
                 <ul class="navbar">
                     <li><a href="#Categoria">Categoria</a></li>
                     <li><a href="#colecao">Coleção</a></li>
-                    <li><a href="../pages/sobre/Sobre.js">Sobre</a></li>
+                    <li><a href="/sobre">Sobre</a></li>
                     <div class="search-container">
                         <input type="text" class="search-box"/>
                         <div class="search-icon"><img src={lupa} alt="lupa"/></div>
@@ -52,7 +60,7 @@ export default function landing() {
         <div class="menumb">
         <div class="icons__header">    
             <a href=""><img class="sacola" src={sacola} alt="sacola de compras"/></a>
-            <a href="/Login Page - ANIMIX/Login Page - ANIMIX/login.html"><img class="perfil" src={perfil} alt="icone de perfil"/></a>
+            <a href="/login"><img class="perfil" src={perfil} alt="icone de perfil"/></a>
         </div>  
         <div class="bx bx-menu" id="menu-icon">
             <img src="/assets/icons/menu-aberto.png" alt="menumb" class="menu-icon"/>
@@ -92,13 +100,13 @@ export default function landing() {
     <section class="animes__card">
         <div class="container__animes">
         <div class="figures">
-        <a href="/pages/jujutsu/jujutsu.html"><img src={jujutsuLogo} alt="jujustu" class="jujutsu"/></a>
+        <a href="/jujutsu"><img src={jujutsuLogo} alt="jujustu" class="jujutsu"/></a>
         </div>  
         <div class="figures">
-        <a href="/pages/atack/atack.html"><img src={atackLogo} alt="atackontitans" class="atackontitans"/></a>
+        <a href="/atack"><img src={atackLogo} alt="atackontitans" class="atackontitans"/></a>
         </div>
         <div class="figures">
-        <a href="/pages/demon/demon.html"><img src={demonLogo} alt="ds" class="demon"/></a>
+        <a href="/demon"><img src={demonLogo} alt="ds" class="demon"/></a>
         </div>
         </div>
     </section>
@@ -106,27 +114,27 @@ export default function landing() {
     <section class="sessao__categorias" id="Categoria">
         <div class="container__images">
         <div class="img">
-            <a href=""><img src="./Assets/roupas img/snk/jaqueta modelox.webp" alt="jaqueta" class="jaquetas"/></a>
+            <a href=""><img src={imgJaqeAtack} alt="jaqueta" class="jaquetas"/></a>
             <h3>jaquetas</h3>
         </div>  
         <div class="img">
-            <a href=""><img src="./Assets/roupas img/demon/moletom kukoshibo.webp" alt="moletom" class="moletons"/></a>
+            <a href=""><img src={imgMoletKukoshibo} alt="moletom" class="moletons"/></a>
             <h3>Moletons</h3>
         </div>
         <div class="img">
-            <a href=""><img src="./Assets/roupas img/jjk/camiseta gojo modelo.png" alt="masculino" class="masculino"/></a>
+            <a href=""><img src={imgCamGojoModel} alt="masculino" class="masculino"/></a>
             <h3>Masculino</h3>
         </div>
         <div class="img">     
-            <a href=""><img src="./Assets/roupas img/feminina/camiseta/camiseta modelo docinho.jpg" alt="feminino" class="feminino"/></a>
+            <a href=""><img src={imgCamDocinhomodel} alt="feminino" class="feminino"/></a>
             <h3>feminino</h3>
         </div>
         <div class="img">     
-            <a href=""><img src="./Assets/roupas img/jjk/chaveiro gojo e geto.jfif" alt="acessorios" class="acessorios"/></a>
+            <a href=""><img src={imgChaveiroGojo} alt="acessorios" class="acessorios"/></a>
             <h3>Acessórios</h3>
         </div>
         <div class="img">     
-            <a href=""><img src="./Assets/roupas img/feminina/saia/saia preta com corrente.jpg" alt="saia" class="saias"/></a>
+            <a href=""><img src={imgSaiacCorrente} alt="saia" class="saias"/></a>
             <h3>Saias</h3>
         </div>   
         </div> 
@@ -197,10 +205,10 @@ export default function landing() {
         </div>
         </div>
         <div class="img__insta">
-            <img src="/Assets/images/chain.jpg" alt="chain" class="chain"/>
-            <img src="/Assets/images/pexels-justin-l-u-c-k-5707180.jpg" alt="homi" class="modelo1"/>
-            <img src="/Assets/images/pexels-th-team-7516447.jpg" alt="muie" class="muie"/>
-            <img src="/Assets/images/modelo rosa 2.webp" alt="rosa" class="rosa"/>
+            <img src={imgChain} alt="chain" class="chain"/>
+            <img src={homi} alt="homi" class="modelo1"/>
+            <img src={muieInsta} alt="muie" class="muie"/>
+            <img src={modeloRosa} alt="rosa" class="rosa"/>
         </div>
         </div>
     </section>
