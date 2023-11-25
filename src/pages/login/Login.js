@@ -28,7 +28,7 @@ export default function Login() {
                     <div class="input-control">
                         <a href="#" class="text text-links">Esqueceu a senha?</a>
                     </div>
-                   <button type="submit"><a href="/Administrador/adm.html">Entrar</a></button>   
+                   <button type="submit"><a href="/adm">Entrar</a></button>   
                 </form>
                 <div class="striped">
                     <p>______________________</p>
