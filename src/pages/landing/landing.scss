@@ -307,6 +307,8 @@
         .ilustration__titulo {
             color: #fff;
             text-align: center;
+            font-size: 24px;
+            font-family: Threat;
         }
 
         .roxo {
@@ -361,9 +363,17 @@
             
         
         
+        .titulo__colecao {
+            margin-top: 80px;
+            color: #fff;
+            text-align: center;
+            align-items: center;
+            font-family: Threat;
+            font-size: 32px;
+        }
 
         .sessao__colecao {
-            margin-top: 60px;
+            margin-top: 0px;
             z-index: 2;
 
             .container__colecao {
