@@ -241,12 +241,20 @@
             }
         }
 
+        .titulo__categoria {
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            font-family: Threat;
+            margin-top: 50px;
+        }
+
         .sessao__categorias {
             display: flex;
             font-family: 'Inter';
             color: #fff;
             text-align: center;
-            padding: 50px;
+            padding: 0 50px 50px 50px;
             overflow-x: auto;
 
             &::-webkit-scrollbar{
