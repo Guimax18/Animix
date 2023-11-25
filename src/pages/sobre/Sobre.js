@@ -1,4 +1,17 @@
 import './Sobre.scss';
+import bgPrincipal from '../assets/images/bkjjk1.png'
+import logo from '../assets/logo img/logo.animix.png'
+import lupa from '../assets/icons/lupa-2.png'
+import sacola from '../assets/icons/sacola-branca.png'
+import perfil from '../assets/icons/perfil.png'
+import jjkFigures from '../assets/images/Picsart_23-09-27_00-01-53-068 1.png'
+import bgInstagram from '../assets/images/rectangle.png'
+import iconInsta from '../assets/icons/instagram.png'
+import imgChain from '../assets/images/chain.jpg'
+import homi from '../assets/images/pexels-justin-l-u-c-k-5707180.jpg'
+import muieInsta from '../assets/images/pexels-th-team-7516447.jpg'
+import modeloRosa from '../assets/images/modelo rosa 2.webp'
+import imgFooter from '../assets/images/bgfooter.jpg'
 import { Link } from 'react-router-dom';
 
 
@@ -7,23 +20,23 @@ export default function Sobre() {
 
   return (
     <div className='pagina-sobre'>
-    <header class="cabecalho">
-        <a href="/"><img src="/assets/logo img/logo.animix.png" alt="logo_principal" class="logo"/></a>
+    <header Class="cabecalho">
+        <a href="/"><img src={logo} alt="logo_principal" class="logo"/></a>
             <nav>
                 <ul class="navbar">
-                    <li><a href="/">Categoria</a></li>
-                    <li><a href="/">Coleção</a></li>
-                    <li><a href="/">Sobre</a></li>
+                    <li><a href="#Categoria">Categoria</a></li>
+                    <li><a href="#colecao">Coleção</a></li>
+                    <li><a href="/sobre">Sobre</a></li>
                     <div class="search-container">
                         <input type="text" class="search-box"/>
-                        <div class="search-icon"><img src="/assets/icons/lupa-2.png" alt="lupa"/></div>
+                        <div class="search-icon"><img src={lupa} alt="lupa"/></div>
                       </div>
                 </ul>
             </nav>
         <div class="menumb">
         <div class="icons__header">    
-            <a href=""><img class="sacola" src="/Assets/icons/Sacola-branca.png" alt="sacola de compras"/></a>
-            <a href="https://login-animix.netlify.app/"><img class="perfil" src="/Assets/icons/perfil." alt="icone de perfil"/></a>
+            <a href=""><img class="sacola" src={sacola} alt="sacola de compras"/></a>
+            <a href="/login"><img class="perfil" src={perfil} alt="icone de perfil"/></a>
         </div>  
         <div class="bx bx-menu" id="menu-icon">
             <img src="/assets/icons/menu-aberto.png" alt="menumb" class="menu-icon"/>
@@ -31,6 +44,7 @@ export default function Sobre() {
         </div>
     </header>
 
+    <img className='bg__principal' src={bgPrincipal} alt='imagem de jujutsu'/>
     <section class="banner__principal">
         <div class="text__principal">
             <h1 class="texto1">Sobre Nós</h1> 
@@ -43,11 +57,11 @@ export default function Sobre() {
                 <p>A Animix é uma loja feita de fãs para fãs, na qual podemos expressar nosso amor pela cultura pop japonesa através de muita criatividade, trazendo produtos originais, exclusivos, com qaulidade e para todos os bolsos.</p>
             </div>
             <div class="tx2">
-                <h3>CONFIABILIDADE</h3>
+                <h3>Confiabilidade</h3>
                 <p>Gostou dos nossos produtos, mas não tem certeza se a nossa loja é confiável? Não tenha mais dúvidas! Todos os seus dados são criptografados e mantidos em sigilo de acordo com o regulamento dos órgãos de segurança digital. Além disso, seu pagamento é administrado pelas melhores plataformas de cartão de crédito. Portanto, não se preocupe, nossa loja é completamente segura!</p>
             </div>
             <div class="tx3">
-                <h3>QUALIDADE</h3>
+                <h3>Qualidade</h3>
                 <p>Qualidade? Sim ou com certeza?!</p>
                 <p>Nosso trabalho é oferecer o melhor para você, sendo assim, trabalhamos apenas com os melhores materiais e tecidos de roupas para que você se sinta bem e confortável. </p>
                 <p>- Moletons 3 cabos protegem qualquer um do frio, com sua estrutura de três faces: frente e meio com meia malha e a felpa (forro) com fios mais grossos, proporcionando alta estabilidade dimensional e durabilidade.</p>
@@ -57,28 +71,30 @@ export default function Sobre() {
     </section>
 
     <div class="img__jjk">
-        <img src="/assets/images/Picsart_23-09-27_00-01-53-068 1.png" alt=""/>
+        <img src={jjkFigures} alt="jujutsu kaizen"/>
     </div>
 
+    
+    <img className='bg__insta' src={bgInstagram} alt='fundo laranja' />
     <section class="sessao__instagram">
         <div class="container__instagram">
         <div class="insta_all">
-            <a href="https://www.instagram.com/animix.set/"><img src="/Assets/icons/instagram.png" alt="icon insta"/></a>
+            <a href="https://www.instagram.com/animix.set/"><img src={iconInsta} alt="icon insta"/></a>
         <div class="insta">
             <h3>Siga nosso</h3>
             <h4>Instagram</h4>
         </div>
         </div>
         <div class="img__insta">
-            <img src="/Assets/images/chain.jpg" alt="chain" class="chain"/>
-            <img src="/Assets/images/pexels-justin-l-u-c-k-5707180.jpg" alt="homi" class="modelo1"/>
-            <img src="/Assets/images/pexels-th-team-7516447.jpg" alt="muie" class="muie"/>
-            <img src="/Assets/images/modelo rosa 2.webp" alt="rosa" class="rosa"/>
+            <img src={imgChain} alt="chain" class="chain"/>
+            <img src={homi} alt="homi" class="modelo1"/>
+            <img src={muieInsta} alt="muie" class="muie"/>
+            <img src={modeloRosa} alt="rosa" class="rosa"/>
         </div>
         </div>
     </section>
 
-
+    <img className="img__footer" src={imgFooter}  alt='imagem de fundo do rodape' />
     <footer class="sessao__footer">
         <div class="footer__content">
             <div class="row-footer">
