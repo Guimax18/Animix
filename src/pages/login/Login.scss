@@ -9,21 +9,21 @@
     font-weight: normal;
     color: black;
     scroll-behavior: smooth;
-    overflow-y: hidden;
+    overflow: hidden;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 
 
     .bgPrincipal {
-        z-index: 0;
+        z-index: 1;
         width: 100%;
-        display: block;
         position: absolute;
-        top: 0;
+       overflow: hidden;
+        
     }
 
         .container {
-            position: relative; 
+            position: absolute; 
             background: linear-gradient(155deg, #ff6b02,#e67c30, #e67c30, #a156df, #913ad8, #7a33ec);
             width: 450px;
             height: 500px;
@@ -31,10 +31,11 @@
             align-items: center;
             justify-content: center;
             border-radius: 20px;
-            margin-top: 90px;
-            margin-left: 450px;
+            margin-top: 60px;
+            margin-left: 420px;
             color: #ffffff;
             z-index: 2;
+           
     
     
             .wrapper {
@@ -103,6 +104,10 @@
                     cursor: pointer;
                     border-radius: 20px;
                     margin-left: 20px;
+
+                    &:hover {
+                        background-color: #520294;
+                    }
     
                     a  {
                     font-size: 20px;
