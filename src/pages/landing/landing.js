@@ -111,6 +111,7 @@ export default function landing() {
         </div>
     </section>
 
+    <h2 className="titulo__categoria">Categorias</h2>
     <section class="sessao__categorias" id="Categoria">
         <div class="container__images">
         <div class="img">
@@ -255,4 +256,3 @@ export default function landing() {
 </section>
   );
 }
-
