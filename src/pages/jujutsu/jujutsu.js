@@ -2,9 +2,9 @@ import '../jujutsu/jujutsu.scss';
 import logo from '../assets/logo img/logo.animix.png'
 import lupa from '../assets/icons/lupa-2.png'
 import sacola from '../assets/icons/sacola-branca.png'
-import perfil from '../assets/icons/perfil.png'
-
-
+import perfil from '../assets/icons/perfil 1.png'
+import bgprincipal from '../assets/images/JujutsuKaisenbanner.png'
+import jujutsuLogo from '../assets/logo img/logo jjk.jpg'
 import imgCamSukuna2  from '../assets/roupas img/jjk/camiseta sukuna 2.jpg'
 
 
@@ -48,7 +48,7 @@ export default function Jujutsu() {
         </div>
     </header>
 
-
+    <img className='bg__principal' src={bgprincipal} alt='imagem de jujutsu' />
     <section class="banner__principal">
         <div class="text__principal">
             <h1 class="texto1">Coleção Jujutsu Kaizen</h1> 
@@ -57,7 +57,7 @@ export default function Jujutsu() {
 
 
     <div class="logo__ilustration">
-        <img src="/assets/logo img/logo jjk.jpg" alt="kny"/>
+        <img src={jujutsuLogo} alt="kny"/>
     </div>
 
 
