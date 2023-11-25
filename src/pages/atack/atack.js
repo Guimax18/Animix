@@ -3,6 +3,9 @@ import logo from '../assets/logo img/logo.animix.png'
 import lupa from '../assets/icons/lupa-2.png'
 import sacola from '../assets/icons/sacola-branca.png'
 import perfil from '../assets/icons/perfil.png'
+import bgPrincipal from '../assets/images/bk snk.jpg'
+import logoAtack from '../assets/logo img/logo snk 3.png'
+
 
 import bgInstagram from '../assets/images/rectangle.png'
 import iconInsta from '../assets/icons/instagram.png'
@@ -43,7 +46,7 @@ export default function Atack() {
         </div>
     </header>
 
-
+    <img className='bg__principal' src={bgPrincipal} alt='imagem de shingeki' />
     <section class="banner__principal">
         <div class="text__principal">
             <h1 class="texto1">Coleção Atack on Titans</h1> 
@@ -51,7 +54,7 @@ export default function Atack() {
     </section>
 
     <div class="logo__ilustration">
-        <img src="/assets/logo img/logo snk 3.png" alt="kny"/>
+        <img src={logoAtack} alt="kny"/>
     </div>
 
     <section class="sessao__colecao">
