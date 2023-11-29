@@ -3,7 +3,6 @@ import './cadastro.scss';
 import axios from 'axios'
 import logo from '../assets/logo img/logo.animix.png'
 import perfil from '../assets/icons/perfil.png'
-import img from '../assets/icons'
 import { Link, useParams } from 'react-router-dom';
 
 
