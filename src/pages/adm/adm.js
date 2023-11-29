@@ -2,7 +2,12 @@ import './adm.scss';
 import logo from '../assets/logo img/logo.animix.png'
 import perfil from '../assets/icons/perfil.png'
 import bgPrincipal from '../assets/images/roxy2.png'
-
+import imgCamAki3 from '../assets/roupas img/animes/camiseta aki 3.jpg';
+import imgCamUsui2 from '../assets/roupas img/demon/camiseta usui 2.jpg';
+import imgCamSukuna3 from '../assets/roupas img/jjk/camiseta sukuna 3.jpg';
+import imgCamDavid from '../assets/roupas img/animes/camiseta david.jpg';
+import imgCamLucy from '../assets/roupas img/animes/camiseta lucy.jpg';
+import btEditar from '../assets/icons/botao-editar.png';
 import { useEffect, useState } from 'react';
 import axios from 'axios'
 import { Link } from 'react-router-dom';
@@ -40,39 +45,39 @@ export default function Adm() {
     <section class="sessao__colecao" id="colecao">
         <div class="container__colecao">
         <div class="roupa">
-            <a href="/cadastro"><img src="/Assets/roupas img/animes/camiseta aki 3.jpg" alt="chainsaw" class="chainsaw"/></a>
+            <a href="/cadastro"><img src={imgCamAki3} alt="chainsaw" class="chainsaw"/></a>
             <div class="text">
-            <a href="/ca"><img src="/assets/icons/botao-editar.png" alt="editar" class="edit"/></a>
+            <a href="/ca"><img src={btEditar} alt="editar" class="edit"/></a>
             <p>Editar</p>
             </div>
         </div>
         
         <div class="roupa">
-            <a href=""><img src="/Assets/roupas img/demon/camiseta usui 2.jpg" alt="usui" class="usui"/></a>
+            <a href=""><img src={imgCamUsui2} alt="usui" class="usui"/></a>
             <div class="text">
-                <a href=""><img src="/assets/icons/botao-editar.png" alt="editar" class="edit"/></a>
+                <a href=""><img src={btEditar} alt="editar" class="edit"/></a>
                 <p>Editar</p>
                 </div>
         </div>
         
         <div class="roupa">
-            <a href=""><img src="/Assets/roupas img/jjk/camiseta sukuna 3.jpg" alt="docinho" class="docinho"/></a>
+            <a href=""><img src={imgCamSukuna3} alt="docinho" class="docinho"/></a>
             <div class="text">
-                <a href=""><img src="/assets/icons/botao-editar.png" alt="editar" class="edit"/></a>
+                <a href=""><img src={btEditar} alt="editar" class="edit"/></a>
                 <p>Editar</p>
                 </div>
         </div>
         <div class="roupa">
-            <a href=""><img src="/Assets/roupas img/animes/camiseta david.jpg" alt="cyber"/></a>
+            <a href=""><img src={imgCamDavid} alt="cyber"/></a>
             <div class="text">
-                <a href=""><img src="/assets/icons/botao-editar.png" alt="editar" class="edit"/></a>
+                <a href=""><img src={btEditar} alt="editar" class="edit"/></a>
                 <p>Editar</p>
             </div>
         </div>
         <div class="roupa">
-            <a href=""><img src="/Assets/roupas img/animes/camiseta lucy.jpg" alt="cyber"/></a>
+            <a href=""><img src={imgCamLucy} alt="cyber"/></a>
             <div class="text">
-                <a href=""><img src="/assets/icons/botao-editar.png" alt="editar" class="edit"/></a>
+                <a href=""><img src={btEditar} alt="editar" class="edit"/></a>
                 <p>Editar</p>
             </div>
         </div>
