@@ -5,8 +5,14 @@ import sacola from '../assets/icons/sacola-branca.png'
 import perfil from '../assets/icons/perfil.png'
 import bgPrincipal from '../assets/images/bk snk.jpg'
 import logoAtack from '../assets/logo img/logo snk 3.png'
-
-
+import imgCamPreta from '../assets/roupas img/snk/camiseta preta.jpg'
+import imgCamEren from '../assets/roupas img/snk/camiseta eren.jpg'
+import imgJaqModelo from '../assets/roupas img/snk/jaqueta modelox.webp'
+import imgMolTropa from '../assets/roupas img/snk/moletom.jpg'
+import imgCamLevi from '../assets/roupas img/snk/camiseta levi.jpg'
+import imgCapa from '../assets/roupas img/snk/capa.jpg'
+import imgMoletom1 from '../assets/roupas img/snk/moletom 1.jpg'
+import imgCamAll from '../assets/roupas img/snk/camiseta_all_snk.png'
 import bgInstagram from '../assets/images/rectangle.png'
 import iconInsta from '../assets/icons/instagram.png'
 import imgFooter from '../assets/images/bgfooter.jpg'
@@ -60,42 +66,42 @@ export default function Atack() {
     <section class="sessao__colecao">
         <div class="container__colecao">
         <div>
-            <a href=""><img src="/Assets/roupas img/snk/camiseta preta.jpg" alt="camisa_sukuna2" class="camisa_sukuna2"/></a>
+            <a href=""><img src={imgCamPreta} alt="camisa_sukuna2" class="camisa_sukuna2"/></a>
             <p>Camiseta Tropa de exploração</p>
             <p>R$50</p>
         </div>
         <div>
-            <a href=""><img src="/Assets/roupas img/snk/camiseta eren.jpg" alt="usui" class="usui"/></a>
+            <a href=""><img src={imgCamEren} alt="usui" class="usui"/></a>
             <p>Camiseta Eren</p>
             <p>R$45</p>
         </div>
         <div>
-            <a href=""><img src="/Assets/roupas img/snk/jaqueta modelox.webp" alt="docinho" class="docinho"/></a>
+            <a href=""><img src={imgJaqModelo} alt="docinho" class="docinho"/></a>
             <p>jaqueta Tropa de Exploração</p>
             <p>R$220</p>
         </div>
         <div>
-            <a href=""><img src="/Assets/roupas img/snk/moletom.jpg" alt="cyber"/></a>
+            <a href=""><img src={imgMolTropa} alt="cyber"/></a>
             <p>Moletom Tropa de Exploração</p>
             <p>R$120</p>
         </div>
         <div>
-            <a href=""><img src="/Assets/roupas img/snk/camiseta levi.jpg" alt="snk"/></a>
+            <a href=""><img src={imgCamLevi} alt="snk"/></a>
             <p>Camiseta Levi</p>
             <p>R$50</p>
         </div>
         <div>
-            <a href=""><img src="/Assets/roupas img/snk/capa.jpg" alt="capa" class="capa"/></a>
+            <a href=""><img src={imgCapa} alt="capa" class="capa"/></a>
             <p>Capa Tropa de Exploração</p>
             <p>R$75</p>
         </div>
         <div>
-            <a href=""><img src="/Assets/roupas img/snk/moletom 1.jpg" alt="moletom_1" class="moletom_1"/></a>
+            <a href=""><img src={imgMoletom1} alt="moletom_1" class="moletom_1"/></a>
             <p>Moletom Atack on Titans</p>
             <p>R$110</p>
         </div>
         <div>
-            <a href=""><img src="/Assets/roupas img/snk/camiseta_all_snk.png" alt="jjk"/></a>
+            <a href=""><img src={imgCamAll} alt="jjk"/></a>
             <p>Camiseta Eren, Mikasa e Levi</p>
             <p>R$60</p>
         </div>

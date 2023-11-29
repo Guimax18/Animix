@@ -5,8 +5,14 @@ import sacola from '../assets/icons/sacola-branca.png'
 import perfil from '../assets/icons/picsart_23-09-24_00-48-40-099.png'
 import bgPrincipal from '../assets/images/bgdemon.png'
 import demonlogo from '../assets/logo img/logo kny.jpg'
-
-
+import imgCamInosuke from '../assets/roupas img/demon/camiseta modelo inosuke.webp'
+import imgCamRengoku from '../assets/roupas img/demon/camiseta rengoku.jpg'
+import imgCamUsui from '../assets/roupas img/demon/camiseta usui.jpg'
+import imgMolZenitsu from '../assets/roupas img/demon/moletom zenitsu.jpg'
+import imgCamMitsuri from '../assets/roupas img/demon/camiseta mitsuri.jpg'
+import imgCamUsui2 from '../assets/roupas img/demon/camiseta usui 2.jpg'
+import imgMolKukoshibo from '../assets/roupas img/demon/moletom kukoshibo.webp'
+import imgCamTanjiro from '../assets/roupas img/demon/camiseta_tanjiro.png'
 import bgInstagram from '../assets/images/rectangle.png'
 import iconInsta from '../assets/icons/instagram.png'
 import imgFooter from '../assets/images/bgfooter.jpg'
@@ -60,42 +66,42 @@ export default function Demon() {
     <section class="sessao__colecao">
         <div class="container__colecao">
         <div>
-            <a href=""><img src="/Assets/roupas img/demon/camiseta modelo inosuke.webp" alt="camisa_inosuke" class="camisa_inosuke"/></a>
+            <a href=""><img src={imgCamInosuke} alt="camisa_inosuke" class="camisa_inosuke"/></a>
             <p>Camiseta Inosuke</p>
             <p>R$45</p>
         </div>
         <div>
-            <a href=""><img src="/Assets/roupas img/demon/camiseta rengoku.jpg" alt="rengoku" class="rengoku"/></a>
+            <a href=""><img src={imgCamRengoku} alt="rengoku" class="rengoku"/></a>
             <p>Camiseta Rengoku</p>
             <p>R$70</p>
         </div>
         <div>
-            <a href=""><img src="/Assets/roupas img/demon/camiseta usui.jpg" alt="usui" class="usui"/></a>
+            <a href=""><img src={imgCamUsui} alt="usui" class="usui"/></a>
             <p>Camiseta Uzui</p>
             <p>R$50</p>
         </div>
         <div>
-            <a href=""><img src="/Assets/roupas img/demon/moletom zenitsu.jpg" alt="zenitsu" class="zenitsu"/></a>
+            <a href=""><img src={imgMolZenitsu} alt="zenitsu" class="zenitsu"/></a>
             <p>Moletom Zenitsu</p>
             <p>R$80</p>
         </div>
         <div>
-            <a href=""><img src="/Assets/roupas img/demon/camiseta mitsuri.jpg" alt="mitsuri" class="mitsuri"/></a>
+            <a href=""><img src={imgCamMitsuri} alt="mitsuri" class="mitsuri"/></a>
             <p>Camiseta Mitsuri</p>
             <p>R$50</p>
         </div>
         <div>
-            <a href=""><img src="/Assets/roupas img/demon/camiseta usui 2.jpg" alt="usui2" class="usui2"/></a>
+            <a href=""><img src={imgCamUsui2} alt="usui2" class="usui2"/></a>
             <p>Camiseta Uzui styler</p>
             <p>R$60</p>
         </div>
         <div>
-            <a href=""><img src="/Assets/roupas img/demon/moletom kukoshibo.webp" alt="kukoshibo" class="kukoshibo"/></a>
+            <a href=""><img src={imgMolKukoshibo} alt="kukoshibo" class="kukoshibo"/></a>
             <p>Jaqueta Kukoshibo</p>
             <p>R$220</p>
         </div>
         <div>
-            <a href=""><img src="/Assets/roupas img/demon/camiseta_tanjiro.png" alt="tanjiro" class="tanjiro"/></a>
+            <a href=""><img src={imgCamTanjiro} alt="tanjiro" class="tanjiro"/></a>
             <p>Camiseta Tanjiro</p>
             <p>R$45</p>
         </div>

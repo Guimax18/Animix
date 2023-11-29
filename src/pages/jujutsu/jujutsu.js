@@ -6,9 +6,13 @@ import perfil from '../assets/icons/perfil 1.png'
 import bgprincipal from '../assets/images/JujutsuKaisenbanner.png'
 import jujutsuLogo from '../assets/logo img/logo jjk.jpg'
 import imgCamSukuna2  from '../assets/roupas img/jjk/camiseta sukuna 2.jpg'
-
-
-
+import imgCamSukuna1 from '../assets/roupas img/jjk/camiseta sukuta.jpg'
+import imgCamMegume from '../assets/roupas img/jjk/camiseta megume.jpg'
+import imgCamYuta from '../assets/roupas img/jjk/camiseta yuta.jfif'
+import imgCamSukuna3 from '../assets/roupas img/jjk/camiseta sukuna 3.jpg'
+import imgMolSukuna from '../assets/roupas img/jjk/moletom sukuna.jpg'
+import imgCamNobara from '../assets/roupas img/jjk/camiseta nobara.jpg'
+import imgCamToji from '../assets/roupas img/jjk/camiseta pai do megume.jpg'
 import bgInstagram from '../assets/images/rectangle.png'
 import iconInsta from '../assets/icons/instagram.png'
 import imgFooter from '../assets/images/bgfooter.jpg'
@@ -64,42 +68,42 @@ export default function Jujutsu() {
     <section class="sessao__colecao">
         <div class="container__colecao">
         <div>
-            <a href=""><img src="/Assets/roupas img/jjk/camiseta sukuna 2.jpg" alt="camisa_sukuna2" class="camisa_sukuna2"/></a>
+            <a href=""><img src={imgCamSukuna2} alt="camisa_sukuna2" class="camisa_sukuna2"/></a>
             <p>Camiseta Sukuna Santuário</p>
             <p>R$50</p>
         </div>
         <div>
-            <a href=""><img src="/Assets/roupas img/jjk/camiseta sukuta.jpg" alt="camiseta_sukuna" class="camiseta_sukuna"/></a>
+            <a href=""><img src={imgCamSukuna1} alt="camiseta_sukuna" class="camiseta_sukuna"/></a>
             <p>Camiseta Sukuna</p>
             <p>R$45</p>
         </div>
         <div>
-            <a href=""><img src="/Assets/roupas img/jjk/camiseta megume.jpg" alt="camiseta_megume" class="camiseta_megume"/></a>
+            <a href=""><img src={imgCamMegume} alt="camiseta_megume" class="camiseta_megume"/></a>
             <p>Camiseta Megume Fushigurou</p>
             <p>R$50</p>
         </div>
         <div>
-            <a href=""><img src="/Assets/roupas img/jjk/camiseta yuta.jfif" alt="camiseta_sukuna3" class="camiseta_sukuna3"/></a>
+            <a href=""><img src={imgCamYuta} alt="camiseta_sukuna3" class="camiseta_sukuna3"/></a>
             <p>Camiseta Yuta e Rika</p>
             <p>R$50</p>
         </div>
         <div>
-            <a href=""><img src="/Assets/roupas img/jjk/camiseta sukuna 3.jpg" alt="moletom_sukuna" class="moletom_sukuna"/></a>
+            <a href=""><img src={imgCamSukuna3} alt="moletom_sukuna" class="moletom_sukuna"/></a>
             <p>Camiseta Itadori e Sukuna</p>
             <p>R$50</p>
         </div>
         <div>
-            <a href=""><img src="/Assets/roupas img/jjk/moletom sukuna.jpg" alt="saia"/></a>
+            <a href=""><img src={imgMolSukuna} alt="saia"/></a>
             <p>Moletom Sukuna</p>
             <p>R$80</p>
         </div>
         <div>
-            <a href=""><img src="/Assets/roupas img/jjk/camiseta nobara.jpg" alt="camiseta_nobara" class="camiseta_nobara"/></a>
+            <a href=""><img src={imgCamNobara} alt="camiseta_nobara" class="camiseta_nobara"/></a>
             <p>Camiseta Nobara</p>
             <p>R$50</p>
         </div>
         <div>
-            <a href=""><img src="/Assets/roupas img/jjk/camiseta pai do megume.jpg" alt="camiseta_toji" class="camiseta_toji"/></a>
+            <a href=""><img src={imgCamToji} alt="camiseta_toji" class="camiseta_toji"/></a>
             <p>Camiseta Toji</p>
             <p>R$50</p>
         </div>
